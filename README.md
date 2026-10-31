@@ -1,5 +1,9 @@
 # native-glass-button
 
+[![npm](https://img.shields.io/npm/v/native-glass-button.svg)](https://www.npmjs.com/package/native-glass-button) [![license](https://img.shields.io/npm/l/native-glass-button.svg)](https://github.com/AnishSapre/native-glass-button/blob/main/LICENSE)
+
+**npm:** [native-glass-button](https://www.npmjs.com/package/native-glass-button) · **GitHub:** [AnishSapre/native-glass-button](https://github.com/AnishSapre/native-glass-button)
+
 iOS 26 **liquid glass buttons** for React Native: a `UIButton` with Apple's glass
 (`UIButton.Configuration.glass()`) or prominent glass configuration, with optional native
 menus (`UIMenu`). On earlier iOS it falls back to the plain / filled system styles.
@@ -77,6 +81,14 @@ A native view has no intrinsic size in React Native layout: give the button a si
 A small Fabric component wraps Apple's own UIKit control, so iOS draws and animates it.
 React Native's codegen builds the bridge from the TypeScript spec in
 `src/*NativeComponent.ts` during `pod install`.
+
+## Related packages
+
+Native iOS controls for React Native (New Architecture), with liquid glass on iOS 26:
+
+- [native-tab-bar](https://github.com/AnishSapre/native-tab-bar) ([npm](https://www.npmjs.com/package/native-tab-bar)): Apple's UITabBar (iOS 26 liquid glass tab bar) with a React Navigation adapter
+- [native-segmented-control](https://github.com/AnishSapre/native-segmented-control) ([npm](https://www.npmjs.com/package/native-segmented-control)): Apple's UISegmentedControl
+- [native-slider](https://github.com/AnishSapre/native-slider) ([npm](https://www.npmjs.com/package/native-slider)): Apple's UISlider
 
 ## License
 
