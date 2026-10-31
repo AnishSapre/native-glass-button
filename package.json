@@ -1,0 +1,53 @@
+{
+  "name": "native-glass-button",
+  "version": "0.1.0",
+  "description": "iOS 26 liquid glass buttons (UIButton glass configurations) for React Native, with optional native menus.",
+  "main": "src/index.ts",
+  "react-native": "src/index.ts",
+  "types": "src/index.ts",
+  "source": "src/index.ts",
+  "files": [
+    "src",
+    "ios",
+    "*.podspec",
+    "react-native.config.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "liquid-glass",
+    "ios-26",
+    "fabric",
+    "new-architecture",
+    "button",
+    "glass",
+    "uimenu",
+    "menu"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnishSapre/native-glass-button.git"
+  },
+  "homepage": "https://github.com/AnishSapre/native-glass-button#readme",
+  "bugs": {
+    "url": "https://github.com/AnishSapre/native-glass-button/issues"
+  },
+  "author": "Anish Sapre",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": ">=0.76.0"
+  },
+  "codegenConfig": {
+    "name": "NativeGlassButtonSpec",
+    "type": "components",
+    "jsSrcsDir": "src",
+    "ios": {
+      "componentProvider": {
+        "NativeGlassButton": "NativeGlassButtonView"
+      }
+    }
+  }
+}
