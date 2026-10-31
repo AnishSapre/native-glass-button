@@ -1,6 +1,6 @@
 {
   "name": "native-glass-button",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "iOS 26 liquid glass buttons (UIButton glass configurations) for React Native, with optional native menus.",
   "main": "src/index.ts",
   "react-native": "src/index.ts",
